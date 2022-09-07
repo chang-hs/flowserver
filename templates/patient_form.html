@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}患者登録画面{% endblock %}
+
+
+{% block page_content %}
+<h1>患者登録画面</h1>
+{{ wtf.quick_form(form) }}
+{% endblock %}
